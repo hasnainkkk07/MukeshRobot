@@ -52,7 +52,7 @@ START_BTN = [
         InlineKeyboardButton(text="HELP", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="DETAILS", callback_data="Miko_"),
+        InlineKeyboardButton(text="DETAILS", callback_data="Mukesh_"),
         InlineKeyboardButton(text="AI", callback_data="ai_handler"),
         InlineKeyboardButton(text="SOURCE", callback_data="git_source"),
         InlineKeyboardButton(text="MUSIC", callback_data="Music_"),
