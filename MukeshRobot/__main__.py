@@ -86,7 +86,8 @@ PM_START_TEXT = """
 """
 
 buttons = [
-    
+    [
+        
         InlineKeyboardButton(text="MUSIC", callback_data="Music_"),
         InlineKeyboardButton(text="SOURCE", callback_data="source_"),
         InlineKeyboardButton(text="DETAIL", callback_data="mukesh_"),
@@ -98,7 +99,7 @@ buttons = [
         InlineKeyboardButton(text="ADVANCED", callback_data="Basic_help"),
     ],
     
-    
+    [
         InlineKeyboardButton(
             text="Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Gʀᴏᴜᴘ",
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
