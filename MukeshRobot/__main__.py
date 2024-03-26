@@ -94,6 +94,12 @@ buttons = [
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
      ],
     [
+        InlineKeyboardButton(text="MUSIC", callback_data="music_"),
+        InlineKeyboardButton(text="SOURCE", callback_data="source_"),
+        InlineKeyboardButton(text="DETAIL", callback_data="mukesh_"),
+    ],
+    
+    [
         InlineKeyboardButton(
             text="Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Gʀᴏᴜᴘ",
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
