@@ -92,7 +92,8 @@ buttons = [
         InlineKeyboardButton(text="SOURCE", callback_data="source_"),
         InlineKeyboardButton(text="DETAIL", callback_data="mukesh_"),
 
-    
+    ], 
+    [
 
         InlineKeyboardButton(text="SUPPORT", url=f"https://t.me/{SUPPORT_CHAT}"),
         InlineKeyboardButton(text="HELP", callback_data="Main_help"),
