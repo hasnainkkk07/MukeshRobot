@@ -86,19 +86,14 @@ PM_START_TEXT = """
 """
 
 buttons = [
-    [
-        InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🛡️", callback_data="mukesh_"),
-        InlineKeyboardButton(text="💳", callback_data="source_"),
-        InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
-     ],
-    [
+    
         InlineKeyboardButton(text="MUSIC", callback_data="Music_"),
         InlineKeyboardButton(text="SOURCE", callback_data="source_"),
         InlineKeyboardButton(text="DETAIL", callback_data="mukesh_"),
-        InlineKeyboardButton(text="SUPPORT", url=f"tg://user?id={SUPPORT_CHAT}"),
+    ],
+        InlineKeyboardButton(text="SUPPORT", url=f"https://t.me/SHINOBI_HEADQUATERS"),
         InlineKeyboardButton(text="HELP", callback_data="Main_help"),
+        InlineKeyboardButton(text="ADVANCED", callback_data="Basic_help"),
     ],
     
     [
