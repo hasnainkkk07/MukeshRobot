@@ -606,7 +606,7 @@ Yᴏᴜ ᴄᴀɴ ʜᴇʟᴘ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴡɪᴛʜ 
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
      ],
                     [
-                        InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url="https://t.me/mukeshbotzone/7"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="mukesh_support")
+                        InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url="https://t.me/hasnainkk"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="mukesh_support")
                     ]
                 ]
             ),
@@ -1095,7 +1095,7 @@ def main():
                 caption=f"""
 ✨ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
 ━━━━━━━━━━━━━
-**ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ 𝐌ᴜᴋᴇsʜ**
+**ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ 𝗛𝗮𝘀𝗻𝗮𝗶𝗻**
 **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{y()}`
 **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ:** `{telever}`
 **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{tlhver}`
