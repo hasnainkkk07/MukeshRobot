@@ -244,7 +244,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
         )
-GROUP_START_BTN = [
+GROUP_START_BUTTON = [
      [
          InlineKeyboardButton(
             text="⛩ ADD ME TO YOUR GROUP ⛩",
