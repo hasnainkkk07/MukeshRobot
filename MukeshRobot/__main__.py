@@ -85,7 +85,7 @@ PM_START_TEXT = """
 ─────────────────
 """
 
-GROUP_START_BTN = [ 
+buttons = [ 
     [
         
         InlineKeyboardButton(text="MUSIC", callback_data="Music_"),
@@ -244,7 +244,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
         )
- buttons = [
+GROUP_START_BTN = [
      [
          InlineKeyboardButton(
             text="⛩ ADD ME TO YOUR GROUP ⛩",
