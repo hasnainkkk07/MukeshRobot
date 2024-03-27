@@ -240,8 +240,11 @@ def start(update: Update, context: CallbackContext):
         update.effective_message.reply_photo(
             START_IMG,
             caption="ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ  !\n<b>ɪ ᴅɪᴅɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ​:</b> <code>{}</code>".format(
-                uptime),
-            
+                uptime
+                        ),
+            parse_mode=ParseMode.HTML,
+        )
+        
             GROUP_START_BUTTON = [
      [
          InlineKeyboardButton(
