@@ -245,22 +245,7 @@ def start(update: Update, context: CallbackContext):
             parse_mode=ParseMode.HTML,
         )
         
-            buttons = [
-     [
-         InlineKeyboardButton(
-            text="⛩ ADD ME TO YOUR GROUP ⛩",
-            url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="SUPPORT", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="CREATOR", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="NETWORK", url=f"https://t.me/SHINOBI_NETWORK"),
-    ], 
-            ]
-            ),
-            parse_mode=ParseMode.HTML,
-        )
+            
 
 
 
