@@ -5,7 +5,6 @@
 # ➥ @YaeMiko_Roxbot @ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ᴜsᴇʀɪᴅ ʏᴏᴜʀ ᴍᴇssᴀɢᴇ
 
 
-import shortuuid
 from pymongo import MongoClient
 from telegram import (
     InlineKeyboardButton,
