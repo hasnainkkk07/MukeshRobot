@@ -241,10 +241,7 @@ def start(update: Update, context: CallbackContext):
             START_IMG,
             caption="ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ  !\n<b>ɪ ᴅɪᴅɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ​:</b> <code>{}</code>".format(
                 uptime
-            ),
-            parse_mode=ParseMode.HTML,
-        )
-GROUP_START_BUTTON = [
+            GROUP_START_BUTTON = [
      [
          InlineKeyboardButton(
             text="⛩ ADD ME TO YOUR GROUP ⛩",
@@ -256,7 +253,11 @@ GROUP_START_BUTTON = [
         InlineKeyboardButton(text="CREATOR", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="NETWORK", url=f"https://t.me/SHINOBI_NETWORK"),
     ], 
-]
+            ]
+            ),
+            parse_mode=ParseMode.HTML,
+        )
+
 
 
 def error_handler(update, context):
