@@ -1,14 +1,14 @@
 {
     "name": "Mukesh Robot",
     "description": "Telegram Group Management Bot.",
-    "logo": "https://te.legra.ph/file/49c43e6fc856534a09853.jpg",
+    "logo": "https://telegra.ph/file/0cf3f8d05aec81a8870b6.jpg",
     "keywords": [
        "telegram",
        "modular",
        "group",
        "manager"
     ],   
- "repository": "https://github.com/Noob-Mukesh/MukeshRobot",
+ "repository": "https://github.com/dilshadhasnain13/MukeshRobot",
  "stack": "heroku-22",
  "addons": [
     {
