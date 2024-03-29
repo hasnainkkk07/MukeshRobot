@@ -323,7 +323,7 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "ʜᴇᴀʟᴛʜ", url=f"https://t.me/ANIME_NETWORK07/90"
+                                "ʜᴇᴀʟᴛʜ", url=f"https://t.me/ANIME_NETWORK07/91"
                             ),
                             InlineKeyboardButton(
                                 "Dɪsᴀsᴛᴇʀ", url="https://t.me/ANIME_NETWORK07/89"
@@ -349,7 +349,7 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "ʜᴇᴀʟᴛʜ", url="https://t.me/ANIME_NETWORK07/90"
+                                "ʜᴇᴀʟᴛʜ", url="https://t.me/ANIME_NETWORK07/91"
                             ),
                             InlineKeyboardButton(
                                 "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/ANIME_NETWORK07/89"
