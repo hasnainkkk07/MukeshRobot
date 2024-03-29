@@ -51,12 +51,12 @@ async def banall_command(client, message: Message):
 
 
 
-__mod_name__ = "Aᴅᴠᴀɴᴄᴇ"
+__mod_name__ = "BANALL"
 __help__ = """
 
-➥ banall : ᴜɴʙᴀɴ ᴀʟʟ ᴍᴀᴍʙᴇʀ 
+➥ /banall : ᴜɴʙᴀɴ ᴀʟʟ ᴍᴀᴍʙᴇʀ 
 
-➥ uteall : ᴜɴᴍᴜᴛᴇ ᴀʟʟ ᴍᴀᴍʙᴇʀ
+➥ /muteall : ᴜɴᴍᴜᴛᴇ ᴀʟʟ ᴍᴀᴍʙᴇʀ
 
 """
 
