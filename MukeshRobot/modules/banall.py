@@ -14,10 +14,7 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 
 
-@app.on_message(
-filters.command("start")
-& filters.private            
-)
+
 async def start_command(client, message: Message):
   await message.reply_photo(
                             photo = f"https://graph.org/file/6eb8317e932c506d4ffdb.jpg",
