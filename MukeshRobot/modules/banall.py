@@ -45,5 +45,18 @@ async def banall_command(client, message: Message):
         except Exception as e:
             print("failed to kicked {} from {}".format(i.user.id, e))           
     print("process completed")
-    
+
+
+
+
+
+
+__mod_name__ = "Aᴅᴠᴀɴᴄᴇ"
+__help__ = """
+
+➥ banall : ᴜɴʙᴀɴ ᴀʟʟ ᴍᴀᴍʙᴇʀ 
+
+➥ uteall : ᴜɴᴍᴜᴛᴇ ᴀʟʟ ᴍᴀᴍʙᴇʀ
+
+"""
 
