@@ -103,7 +103,7 @@ async def repo(client, message):
                     ),
                     InlineKeyboardButton(
                         "• ʀᴇᴘᴏ •",
-                        url="https://github.com/dilshadhasnain13/MukeshRobot",
+                        url="https://t.me//yaemiko_repo",
                     ),
                 ]
             ]
